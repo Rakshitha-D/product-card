@@ -1,0 +1,59 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    background-color: hsl(30, 38%, 92%);
+    width: 1300px;
+    height: 720px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 168px;
+    margin-right: 168px;
+    box-shadow: 5px 5px 20px rgb(212, 212, 212);
+}
+
+.preview{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 9px;
+    width: 545px;
+    height: 408px;
+    margin-top: 156px;
+    margin-bottom: 156px;
+    margin-left: 377.5px;
+    margin-right: 377.5px;
+    position: relative; 
+    z-index: 1;
+} 
+
+.card-img{
+    width: 272.5px; 
+    height: 408px; 
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px; 
+} 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap'); 
+
+.text{
+    position: absolute;
+    z-index: 2; 
+    right: 0px;
+    bottom: 0px;
+    width: 252.5px;
+    height: 388px;
+} 
+
+.one{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.two{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500; 
+    font-size: 14px; 
+} 
