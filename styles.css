@@ -28,7 +28,7 @@
     margin-left: 377.5px;
     margin-right: 377.5px;
     position: relative; 
-    z-index: 1;
+    
 } 
 
 .card-img{
@@ -40,8 +40,7 @@
 
 
 .text{
-    position: absolute;
-    z-index: 2; 
+    position: absolute;    
     right: 20px;
     bottom: 20px;
     width: 232.5px;
@@ -85,7 +84,7 @@ h6{
     font-weight: 500; 
     font-size: 12px; 
     color: hsl(228, 12%, 48%);
-    padding: 10px; 
+    padding-left: 10px; 
 }  
 
 .button{
