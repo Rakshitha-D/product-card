@@ -27,8 +27,7 @@
     margin-bottom: 156px;
     margin-left: 377.5px;
     margin-right: 377.5px;
-    position: relative; 
-    
+    position: relative;
 } 
 
 .card-img{
@@ -40,12 +39,11 @@
 
 
 .text{
-    position: absolute;    
+    position: absolute;   
     right: 20px;
     bottom: 20px;
     width: 232.5px;
     height: 368px; 
-    
 } 
 
 p.one{
